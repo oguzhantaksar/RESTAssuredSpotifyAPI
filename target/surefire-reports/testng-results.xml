@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-13T16:32:18 TRT" name="Surefire suite" finished-at="2023-11-13T16:32:22 TRT" duration-ms="4037">
+    <groups>
+    </groups>
+    <test started-at="2023-11-13T16:32:18 TRT" name="Surefire test" finished-at="2023-11-13T16:32:22 TRT" duration-ms="4037">
+      <class name="SpotifyTests.PlaylistTests">
+        <test-method signature="shouldBeAbleGetAPlaylist()[pri:0, instance:SpotifyTests.PlaylistTests@add0edd]" started-at="2023-11-13T16:32:18 TRT" name="shouldBeAbleGetAPlaylist" finished-at="2023-11-13T16:32:21 TRT" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleGetAPlaylist -->
+        <test-method signature="shouldBeAbleToCreateAPlaylist()[pri:0, instance:SpotifyTests.PlaylistTests@add0edd]" started-at="2023-11-13T16:32:21 TRT" name="shouldBeAbleToCreateAPlaylist" finished-at="2023-11-13T16:32:21 TRT" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCreateAPlaylist -->
+        <test-method signature="shouldBeAbleToUpdateAPlaylist()[pri:0, instance:SpotifyTests.PlaylistTests@add0edd]" started-at="2023-11-13T16:32:21 TRT" name="shouldBeAbleToUpdateAPlaylist" finished-at="2023-11-13T16:32:22 TRT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToUpdateAPlaylist -->
+        <test-method signature="shouldNotBeAbleToCreateAPlaylistWithoutName()[pri:0, instance:SpotifyTests.PlaylistTests@add0edd]" started-at="2023-11-13T16:32:22 TRT" name="shouldNotBeAbleToCreateAPlaylistWithoutName" finished-at="2023-11-13T16:32:22 TRT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleToCreateAPlaylistWithoutName -->
+        <test-method signature="shouldNotBeAbleToCreateAPlaylistWithoutValidToken()[pri:0, instance:SpotifyTests.PlaylistTests@add0edd]" started-at="2023-11-13T16:32:22 TRT" name="shouldNotBeAbleToCreateAPlaylistWithoutValidToken" finished-at="2023-11-13T16:32:22 TRT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleToCreateAPlaylistWithoutValidToken -->
+      </class> <!-- SpotifyTests.PlaylistTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
